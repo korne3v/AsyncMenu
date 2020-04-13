@@ -1,1 +1,3 @@
-# AsyncMenu : Server menus with support for PlaceholderAPI and BungeeCord
+# AsyncMenu
+
+*Server menus with support for PlaceholderAPI and BungeeCord
