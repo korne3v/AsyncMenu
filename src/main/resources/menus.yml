@@ -1,0 +1,119 @@
+default-menu:
+  title: 'AsyncMenu'
+  rows: 5
+  command: 'menu'
+  items:
+    chest:
+      slot: 13
+      name: '&cAsyncMenu'
+      lore:
+      - ''
+      - '&7Plugin by korne3v'
+      - ''
+      - '&eClick here'
+      icon: '0:1:korne3v'
+      execute:
+      - '[message]&f[&cAsyncMenu&f] Please leave &e★★★★★&f under the resource'
+      - '[message]&f[&cAsyncMenu&f] &ahttps://www.spigotmc.org/resources/77327/'
+    contancs:
+      slot: 29
+      name: '&aContacts'
+      lore:
+      - '&7'
+      - '&fSpigot: &ehttps://www.spigotmc.org/members/685012/'
+      - '&7'
+      icon: '386:1:0'
+      execute:
+      - '[message]&f[&cAsyncMenu&f] Author: &ehttps://www.spigotmc.org/members/685012/'
+    selector:
+      slot: 31
+      name: '&aSever selector'
+      lore:
+      - '&7Click to open'
+      icon: '25:1:0'
+      execute:
+      - '/selector'
+    donate:
+      slot: 33
+      name: '&aDonate'
+      lore:
+      - '&7Click to open'
+      icon: '388:1:0'
+      execute:
+      - '/donate'
+donate-menu:
+  title: 'AsyncMenu > Donate'
+  rows: 5
+  command: 'donate'
+  items:
+    donate:
+      slot: 13
+      name: '&cPremium AsyncMenu'
+      lore:
+      - ''
+      - '&7Soon..'
+      - ''
+      icon: '95:1:14'
+      execute:
+      - '[message]&f[&cAsyncMenu&f] Premium resource:'
+      - '[message]&f[&cAsyncMenu&f] &cSoon'
+    back:
+      slot: 31
+      name: '&cBack'
+      lore:
+      - '&7Click here'
+      icon: '331:1:0'
+      execute:
+      - '/menu'
+bungee-menu:
+  title: 'AsyncMenu > Server Selector'
+  rows: 5
+  command: 'selector'
+  items:
+    lobby:
+      slot: 11
+      name: '&aLobby'
+      lore:
+      - ''
+      - '&fOnline: &a[online=Lobby-1, Lobby-2, Lobby-3]'
+      - ''
+      - '&eClick to join'
+      icon: 'BEACON:1:0'
+      execute:
+      - '[message]&f[&cAsyncMenu&f] Connect to &aLobby'
+      - '[server] Lobby-1'
+      - '[close]'
+    bedwars:
+      slot: 13
+      name: '&aBedWars'
+      lore:
+      - ''
+      - '&fOnline: &a[online=BedWars]'
+      - ''
+      - '&eClick to join'
+      icon: 'BED:1:0'
+      execute:
+      - '[message]&f[&cAsyncMenu&f] Connect to &aBedWars'
+      - '[server] BedWars'
+      - '[close]'
+    skywars:
+      slot: 15
+      name: '&aSkyWars'
+      lore:
+      - ''
+      - '&fOnline: &a[online=SkyWars]'
+      - ''
+      - '&eClick to join'
+      icon: 'BOW:1:0'
+      execute:
+      - '[message]&f[&cAsyncMenu&f] Connect to &aSkyWars'
+      - '[server] SkyWars'
+      - '[close]'
+    back:
+      slot: 31
+      name: '&cBack'
+      lore:
+      - '&7Click here'
+      icon: '331:1:0'
+      execute:
+      - '/menu'
